@@ -1,38 +1,47 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "2023",
+    role: "Inicio de mi vida como estudiante en desarrollo de software",
+    company: "",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "Comencé mi formación en la carrera de Tecnologías de la Información, fortaleciendo conocimientos en bases de datos, desarrollo web, desarrollo móvil y desarrollo de software.",
+    technologies: [],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "2024",
+    role: "Proyecto Integrador – Gladiators",
+    company: "",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+      "Desarrollé Gladiators, mi primer proyecto integrador universitario, consistente en un sistema de punto de venta con funcionalidades para el control de ventas, inventario y gestión de productos.",
+    technologies: ["Flask", "Python","Postgres SQL"],
     current: false,
   },
   {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
+    period: "2025",
+    role: "Proyecto Integrador – Light Step",
+    company: "",
     description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
+      "Desarrollé Light Step, un proyecto que integró una página web, una aplicación móvil y un dispositivo IoT, con el objetivo de ofrecer una solución tecnológica.",
+    technologies: ["Python","JavaScript", "Django", "TailwindCSS","Flutter","Dart", "Firebase", ],
     current: false,
   },
   {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
+    period: "2025",
+    role: "Módulo de Contratos y Expedientes",
+    company: "",
     description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Realicé mis estadías en la empresa Aizu, donde desarrollé un nuevo módulo para el sistema interno de la empresa enfocado en la gestión de contratos y expedientes.",
+    technologies: ["JavaScript", "PHP", "MySQL","Filezilla"],
+    current: false,
+  },
+    {
+    period: "2026 – Actualidad",
+    role: "Desarrollo de Modelo Matemático con MediaPipe",
+    company: "",
+    description:
+      "Desarrollé un modelo matemático utilizando MediaPipe para el análisis de movimientos mediante una cámara por computadora.",
+    technologies: ["JavaScript", "Python", "OpenCV","MediaPipe"],
     current: false,
   },
 ];
@@ -42,7 +51,7 @@ export const Experience = () => {
     <section id="experience" className="py-32 relative overflow-hidden">
       <div
         className="absolute top-1/2 left-1/4 w-96
-       h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2"
+        h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2"
       />
 
       <div className="container mx-auto px-6 relative z-10">
@@ -50,29 +59,27 @@ export const Experience = () => {
         <div className="max-w-3xl mb-16">
           <span
             className="text-secondary-foreground text-sm
-           font-medium tracking-wider uppercase animate-fade-in"
+            font-medium tracking-wider uppercase animate-fade-in"
           >
-            Career Journey
+          
           </span>
           <h2
             className="text-4xl md:text-5xl font-bold
-           mt-4 mb-6 animate-fade-in animation-delay-100
+            mt-4 mb-6 animate-fade-in animation-delay-100
             text-secondary-foreground"
           >
-            Experience that{" "}
+            Experiencia adquirida{" "}
             <span className="font-serif italic font-normal text-white">
               {" "}
-              speaks volumes.
+              a través del tiempo.
             </span>
           </h2>
 
           <p
             className="text-muted-foreground
-           animate-fade-in animation-delay-200"
+            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
-          </p>
+            Una cronología de mi crecimiento como estudiante</p>
         </div>
 
         {/* Timeline */}

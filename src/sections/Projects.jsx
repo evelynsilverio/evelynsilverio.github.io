@@ -5,31 +5,30 @@ const projects = [
   {
     title: "Light Step",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "Light Step es un proyecto que integra una página web, una aplicación móvil y un dispositivo IoT. Consiste en unas escaleras inteligentes que se controlan a través de la aplicación móvil, en la que se le puede cambiar el color, el efecto, la opacidad y consultar el tiempo de uso, de igualmanera, cuando las escaleras detectan personas se encienden. En la página web se encuentra la información sobre las esclaeras inteligentes, así como el costo",
     image: "/projects/proyecto1.jpeg",
-    tags: ["Django", "Tailwind.css", "Python", "JavaScript"],
+    tags: ["Django", "Tailwind css", "Python", "JavaScript"],
     link: "#",
   },
   {
-    title: "Light Step Mòvil",
-    description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+    title: "Realtime Simulator",
+    description:"Realtime Simulator es un simulador de partículas en tiempo real controlado mediante gestos de las manos y comandos de voz. Permite modificar la velocidad y fuerza de las partículas para visualizar su comportamiento en distintos escenarios físicos, como la dispersión de materiales durante un derrumbe o un impacto.",
     image: "/projects/proyecto2.png",
-    tags: ["Flutter", "Dart", "Firebase"],
+    tags: ["Python", "Media Pipe", "JavaScript"],
     link: "#",
   },
   {
-    title: "Sistema de Punto de Vneta",
+    title: "Sistema de Punto de Venta",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "Gladiators en un Sistema de Punto de Venta, su funcionalidad consiste en hacer ventas, gestionar productos, empleados e inventario, ",
     image: "/projects/proyecto3.jpeg",
     tags: ["Flask", "Python", "PostgreSQL"],
     link: "#",
   },
   {
-    title: "Mòdulo Contratos y Expedientes",
+    title: "Módulo Contratos y Expedientes",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "Es un módulo, el cuál consiste en generar contratos con IA a empleados nuevos, así como poder firmarlos digitalmente o subir la e.firma, donde cada empleado puede subir sus documentos personales al expediente correspondiente",
     image: "/projects/proyecto4.jpeg",
     tags: ["PHP", "MySQL", "Filezilla", "JavaScript"],
     link: "#",
@@ -59,7 +58,7 @@ export const Projects = () => {
           </h2>
 
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Una selecciòn de mis proyectos recientes que han generado impacto
+            Una seleccionn de mis proyectos recientes que han generado impacto
           </p>
         </div>
 
@@ -132,10 +131,6 @@ export const Projects = () => {
 
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
         </div>
       </div>
     </section>
