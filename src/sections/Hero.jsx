@@ -87,12 +87,16 @@ export const Hero = () => {
               <Button size="lg">
                 Contactáctame
               </Button>
-              <AnimatedBorderButton>
+              <AnimatedBorderButton 
+              href="/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
                 Descargar CV
               </AnimatedBorderButton>
             </div>
 
-            
+
           </div>
           {/* Right Column - Profile Image */}
           <div className="relatice animate-fade-in animation-delay-300">
