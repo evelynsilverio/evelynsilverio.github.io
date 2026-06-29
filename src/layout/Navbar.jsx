@@ -32,9 +32,9 @@ export const Navbar = () => {
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
-          className="text-xl font-bold tracking-tight hover:text-primary"
-        >
-          PM<span className="text-primary">.</span>
+          className="w-20 text-center p-1 rounded-2xl border border-primary tracking-tight hover:text-primary"
+        >♡ 
+          <span className="text-white  hover:text-primary"> Inicio</span>
         </a>
 
         {/* Desktop Nav */}
@@ -53,8 +53,11 @@ export const Navbar = () => {
         </div>
 
         {/* CTA Button */}
+
         <div className="hidden md:block">
+          <a href="#contact">
           <Button size="sm">Contáctame</Button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}

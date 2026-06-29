@@ -1,5 +1,6 @@
 import { Button } from "@/components/Button";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
+import { Link } from "react-router-dom";
 
 const skills = [
   "Filezilla",
@@ -60,7 +61,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Estudiante de Desarrollo de Software
+                Estudiante de Ingeniería en Desarrollo de Software
               </span>
             </div>
 
@@ -76,17 +77,19 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hola, soy Evelyn. 
-                Estudiante de desarrollo de software.
-                Aprendiendo, creando y creciendo en el mundo del software.
+                Hola, soy Evelyn.
+                Estudio Ingeniería en Desarrollo de Software.
+                Estoy aprendiendo y creando en el mundo del software.
               </p>
             </div>
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
-                Contactáctame
-              </Button>
+              <a href="#contact">
+                <Button size="lg">
+                  Contáctame
+                </Button>
+              </a>
               <AnimatedBorderButton 
               href="/cv.pdf"
               target="_blank"

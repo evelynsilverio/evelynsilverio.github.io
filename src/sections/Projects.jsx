@@ -58,7 +58,7 @@ export const Projects = () => {
           </h2>
 
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Una seleccionn de mis proyectos recientes que han generado impacto
+            Una selección de mis proyectos recientes que han generado impacto
           </p>
         </div>
 
@@ -75,7 +75,7 @@ export const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-5/5 h-5/5 object-contain transition-transform duration-700 group-hover:scale-110"
                 />
 
                 <div
@@ -118,7 +118,7 @@ export const Projects = () => {
                   {project.tags.map((tag, tagIdx) => (
                     <span
                       key={tagIdx}
-                      className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50 text-muted-foreground hover:border-primary/50 hover:text-primary transition-all duration-300"
+                      className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-primary/50 text-primary hover:border-primary/50 hover:text-primary transition-all duration-300"
                     >
                       {tag}
                     </span>
