@@ -32,9 +32,9 @@ export const Navbar = () => {
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
-          className="w-20 text-center p-1 rounded-2xl border border-primary tracking-tight hover:text-primary"
+          className="w-20 text-center p-1 rounded-2xl border border-primary tracking-tight hover:bg-fuchsia-400"
         >♡ 
-          <span className="text-white  hover:text-primary"> Inicio</span>
+          <span className="text-white"> Inicio</span>
         </a>
 
         {/* Desktop Nav */}
