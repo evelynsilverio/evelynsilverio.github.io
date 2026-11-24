@@ -77,7 +77,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hola, soy Evelyn.
+                Soy Evelyn.
                 Estudio Ingeniería en Desarrollo de Software.
                 Estoy aprendiendo y creando en el mundo del software.
               </p>
@@ -91,7 +91,7 @@ export const Hero = () => {
                 </Button>
               </a>
               <AnimatedBorderButton 
-              href="/cv.pdf"
+              href="/Curriculum Vitae.pdf"
               target="_blank"
               rel="noopener noreferrer"
               >
